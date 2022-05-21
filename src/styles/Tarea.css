@@ -1,0 +1,28 @@
+.contenedor-tareas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.tarea-input {
+  font-size: 1.1em;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0, 20px, 10px, 0 rgba(0,0,0,0.5);
+}
+
+.tarea-btn {
+  background-color: #5858ff;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tarea-btn:hover{
+  background-color: #2222ff;
+  transform: scale(1.1);
+}

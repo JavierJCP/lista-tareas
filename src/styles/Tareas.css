@@ -1,0 +1,71 @@
+.editar-input{
+  font-size: 1.1em;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0, 20px, 10px, 0 rgba(0, 0, 0, 0.661);
+}
+
+.editarTarea-btn{
+  background-color: #58ff74;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editarTarea-btn:hover{
+  background-color: #24f747;
+  transform: scale(1.1);
+}
+
+.contenedor-lista{
+  display: flex;
+  justify-content: center;
+}
+
+.tareas-sapm{
+  margin: 2px;
+  text-transform: capitalize;
+  font-size: 1.1em;
+  background-color: rgb(154, 80, 167);
+  color: white;
+  width: 300px;
+  padding: 10px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.tarea-editar-btn{
+  background-color: #58ff74;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2px 5px;
+}
+
+.tarea-editar-btn:hover{
+  background-color: #24f747;
+  transform: scale(1.1);
+}
+
+.tarea-eliminar-btn {
+  background-color: #ff6b58;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2px 5px;
+}
+
+.tarea-eliminar-btn:hover{
+  background-color: #ff4b34;
+  transform: scale(1.1);
+}
